@@ -1,0 +1,9 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/quiz": "pages/quiz.js",
+  "/api/generate-quiz": "pages/api/generate-quiz.js",
+  "/chatbot": "pages/chatbot.js",
+  "/api/gemini-chat": "pages/api/gemini-chat.js"
+}
