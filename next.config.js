@@ -1,6 +1,9 @@
-const withNoServer = require('@next/next-no-server')();
-
-module.exports = withNoServer({
-  output: 'export',
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   reactStrictMode: true,
-});
+  env: {
+    GEMINI_API_KEY: process.env.GEMINI_API_KEY
+  }
+};
+
+module.exports = nextConfig;
